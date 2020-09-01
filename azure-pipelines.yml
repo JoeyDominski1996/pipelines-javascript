@@ -19,3 +19,8 @@ steps:
     npm install
     npm run build
   displayName: 'npm install and build'
+  
+variables: 
+  ## Add this under variables section in the pipeline
+  azureSubscription: <Name of the Azure subscription>
+  appName: <Name of the Function App>
